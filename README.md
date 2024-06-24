@@ -32,17 +32,12 @@ The model is trained on a dataset containing historical weather data for Sri Lan
 ## Model
 The prediction model uses Ridge Regression to forecast the next day's maximum temperature. Ridge Regression is chosen for its ability to handle multicollinearity among the predictor variables.
 
-## Installation
-To run this project locally, follow these steps:
-1. Clone the repository: `git clone https://github.com/yourusername/weather-prediction.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the Jupyter Notebook to explore the project and make predictions.
 
 ## Usage
-1. Open the Jupyter Notebook.
-2. Run all cells to load the model and the widget interface.
-3. Input today's maximum and minimum temperatures, precipitation, and the month's average maximum temperature.
-4. Get the predicted maximum temperature for the next day.
+1. Open the Jupyter Notebook in Weather Prediction file.
+2. Install all the requirements mentioned in under the requarements title
+3. Run all cells to load the model and the widget interface.
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
