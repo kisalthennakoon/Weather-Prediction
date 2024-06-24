@@ -1,4 +1,4 @@
-# Sri Lankan Weather Prediction
+# Weather Prediction using Ridge Regression
 
 This project predicts the next day's maximum temperature in Celsius using today's weather data. The model is trained on Sri Lankan weather data and employs Ridge Regression. An interface using widgets is provided to input the necessary attributes and output the predicted temperature.
 
@@ -7,7 +7,7 @@ This project predicts the next day's maximum temperature in Celsius using today'
 - [Features](#features)
 - [Dataset](#dataset)
 - [Model](#model)
-- [Installation](#installation)
+- [Requirements](#requirements)
 - [Usage](#usage)
 - [License](#license)
 
@@ -32,7 +32,16 @@ The model is trained on a dataset containing historical weather data for Sri Lan
 ## Model
 The prediction model uses Ridge Regression to forecast the next day's maximum temperature. Ridge Regression is chosen for its ability to handle multicollinearity among the predictor variables.
 
+## Requirements
 
+To run this project, you need the following libraries:
+
+- pandas
+- scikit-learn
+- joblib
+- ipywidgets
+- numpy
+  
 ## Usage
 1. Open the Jupyter Notebook in Weather Prediction file.
 2. Install all the requirements mentioned in under the requarements title
