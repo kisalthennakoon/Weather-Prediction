@@ -43,7 +43,7 @@ To run this project, you need the following libraries:
 - numpy
   
 ## Usage
-1. Open the Jupyter Notebook in Weather Prediction file.
+1. Open the Jupyter Notebook in Weather Prediction folder.
 2. Install all the requirements mentioned in under the requarements title
 3. Run all cells to load the model and the widget interface.
 
